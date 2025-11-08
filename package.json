@@ -1,0 +1,38 @@
+{
+  "name": "ai-knowledge-base",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
+    "@supabase/supabase-js": "^2.50.0",
+    "axios": "^1.9.0",
+    "dompurify": "^3.2.6",
+    "marked": "^15.0.12",
+    "pinia": "^3.0.3",
+    "prismjs": "^1.30.0",
+    "uuid": "^11.1.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.5",
+    "@types/marked": "^5.0.2",
+    "@types/prismjs": "^1.26.5",
+    "@types/uuid": "^10.0.0",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.5",
+    "tailwindcss": "^3.4.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.8"
+  }
+}
